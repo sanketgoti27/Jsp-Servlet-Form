@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>DataController</servlet-name>
+		<display-name>DataController</display-name>
+		<description></description>
+		<servlet-class>com.demo.jspservlet.DataController</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>DataController</servlet-name>
+		<url-pattern>/getData</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DataController</servlet-name>
+		<url-pattern>/postData</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet-mapping>
+		<servlet-name>DataController</servlet-name>
+		<url-pattern>/DataController</url-pattern>
+	</servlet-mapping>
+
+</web-app>
